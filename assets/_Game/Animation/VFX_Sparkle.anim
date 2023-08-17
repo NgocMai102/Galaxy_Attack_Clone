@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "VFX_Sparkle",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "5b03f815-961d-4158-b897-5f438a674f9b"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "7ca101c6-1988-452d-b5d6-95fd6ffb7b7d"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "1106f5ce-c91d-466c-9bf8-84832bf5ebdb"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "76392f18-52e3-48cb-a5e2-718b53636680"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "e0c2ceaf-42a3-4e00-9f03-af435d0f621d"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "05b51d5d-3154-43fd-8d82-9de128e45cf0"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

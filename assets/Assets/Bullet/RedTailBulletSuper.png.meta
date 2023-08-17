@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "32168b09-38df-4248-94af-432f7696f5fe",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 52,
+  "height": 148,
+  "platformSettings": {},
+  "subMetas": {
+    "RedTailBulletSuper": {
+      "ver": "1.0.4",
+      "uuid": "0ea8d850-2539-4509-a47c-ebd211fa76c8",
+      "rawTextureUuid": "32168b09-38df-4248-94af-432f7696f5fe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 52,
+      "height": 148,
+      "rawWidth": 52,
+      "rawHeight": 148,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

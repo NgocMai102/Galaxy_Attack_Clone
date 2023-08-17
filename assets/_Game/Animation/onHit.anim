@@ -1,0 +1,231 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "onHit",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Idle/Body": {
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 87,
+                "b": 87,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "Idle/Feeler L Low": {
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 87,
+                "b": 87,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "Idle/Jaw": {
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 87,
+                "b": 87,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "Idle/Feeler L High": {
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 87,
+                "b": 87,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "Idle/Feeler R Low": {
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 87,
+                "b": 87,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "Idle/Feeler R High": {
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 87,
+                "b": 87,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
