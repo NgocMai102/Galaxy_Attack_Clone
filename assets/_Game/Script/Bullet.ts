@@ -16,25 +16,30 @@ const { ccclass, property } = cc._decorator;
 export default class Bullet extends PoolMember {
   @property
   private speed: number = 2000;
-
-  @property
   private damage: number = 20;
+  private direction: number = 1;
 
   // public onInit(damage: number) {
   //   this.damage = damage;
   // }
 
-  public onInit() {}
+  public onInit(damage: number, direction: number) {
+    this.damage = damage;
+    this.direction = direction;
+  }
 
   update(dt: number) {
-    const velocity = this.node.up.mul(dt).mul(this.speed);
+    const velocity = this.node.up.mul(dt).mul(this.speed).mul(this.direction);
     const newPos = this.node.position.add(velocity);
 
     // move bullet forward with info of spawn point (pivot & rotation)
     this.node.setPosition(newPos);
 
     // despawn bullet if out of bound
-    if (this.node.position.y >= 950) {
+    if (
+      this.node.position.y * this.direction >= 950 ||
+      this.node.position.y * this.direction <= -950
+    ) {
       // NodePool.getInstance().putNode(this.node);
       SimplePool.despawn(this);
     }

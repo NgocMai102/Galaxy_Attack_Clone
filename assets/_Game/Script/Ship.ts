@@ -140,7 +140,7 @@ export default class Ship extends cc.Component {
           this.bulletPoints[i].getWorldPosition(),
           this.bulletPoints[i].angle
         ) as Bullet
-      ).onInit();
+      ).onInit(20, 1);
     }
   }
 
@@ -213,10 +213,6 @@ export default class Ship extends cc.Component {
       .to(duration, { position: targetPosition }, { easing: "linear" })
       .call(doneAction)
       .start();
-  }
-
-  public onCollisionEnter(other: cc.Collider, self: cc.Collider) {
-    
   }
 
   public onDeath(): void {
